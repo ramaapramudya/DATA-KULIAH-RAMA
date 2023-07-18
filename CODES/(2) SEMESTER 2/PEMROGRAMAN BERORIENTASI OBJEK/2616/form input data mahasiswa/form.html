@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Data Mahasiswa</title>
+        <style type="text/css" media="screen">
+            table {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;}
+            input {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;height: 20px;}
+        </style>
+    </head>
+    <body>
+    <div style="border:0; padding:10px; width:760px; height:auto;">
+    <form action="action-input-data.php" method="POST" name="form">
+        <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr height="46">
+                    <td width="10%"> </td>
+                    <td width="25%"> </td>
+                    <td width="65%"><font color="maroon" size="5">FORM INPUT DATA MAHASISWA</font></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>Nomor Induk Mahasiswa</td>
+                <td><input type="text" name="id_mahasiswa" size="35" maxlength="10" /></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>Nama</td>
+                <td><input type="text" name="nama" size="50" maxlength="30" /></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>Jenis Kelamin</td>
+                <td><select name="jurusan">
+                        <option value="-">- Pilih -
+                        <option value="Laki Laki">Laki Laki
+                        <option value="Perempuan">Perempuan
+                    </select></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>No. Hp</td>
+                <td><input type="text" name="telepon" size="20" maxlength="12" /></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>Agama</td>
+                <td><select name="Agama">
+                        <option value="-">- Pilih Agama -
+                        <option value="Islam">Islam
+                        <option value="Kristen">Kristen
+                        <option value="Konghucu">Konghucu
+                        <option value="Budha">Budha
+                        <option value="Hindu">Hindu
+                    </select></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td>Status Keaktifan</td>
+                <td><select name="Status Keaktifan">
+                        <option value="-">- Pilih -
+                        <option value="Aktif">Aktif
+                        <option value="Tidak Aktif">Tidak Aktif
+                    </select></td>
+            </tr>
+            <tr height="46">
+                <td> </td>
+                <td> </td>
+                <td><input type="submit" name="Submit" value="Submit">   
+                    <input type="reset" name="reset" value="Cancel"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    </body>
+    </html>
