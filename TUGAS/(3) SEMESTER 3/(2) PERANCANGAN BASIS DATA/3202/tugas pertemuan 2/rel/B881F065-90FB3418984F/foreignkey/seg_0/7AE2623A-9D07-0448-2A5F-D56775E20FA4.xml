@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AE2623A-9D07-0448-2A5F-D56775E20FA4" containerWithKeyObject="732BAF0A-A7E5-F0D2-6F0D-1353503CD593" localFKIndex="B4173E77-BDD5-F38E-1CFD-535DE126F2FB" name="DEPARTMENT_LOCATION_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>E69738A7-8DBA-5A07-C2A5-D2749BECDFD2</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<referredTableLongName>LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1068E727-E4A7-16B3-6BED-E601AB68AFE9</referredTableID>
+<keyObject>4A7BAEB3-4959-E82B-27C7-7D0A9C2BB526</keyObject>
+<referredKeyID>4A7BAEB3-4959-E82B-27C7-7D0A9C2BB526</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOCATION_ID,COUNTRY_COUNTRY_ID,COUNTRY_REGION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

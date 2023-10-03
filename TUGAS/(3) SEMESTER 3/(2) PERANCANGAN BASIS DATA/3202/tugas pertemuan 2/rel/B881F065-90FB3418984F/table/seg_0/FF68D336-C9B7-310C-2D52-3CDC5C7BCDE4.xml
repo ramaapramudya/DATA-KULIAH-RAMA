@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF68D336-C9B7-310C-2D52-3CDC5C7BCDE4" name="EMPLOYEE">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>08268A61-FCC1-4430-E2F9-1E74610DFD73</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="D1AA7AEA-A6FE-9008-E3D6-70DFEDBA8F6C">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>6D38B126-C57E-40D2-9488-7B05B0506699</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="E3E0B95F-246B-927D-FF33-2578CFF5F83B">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>367A90CC-8ECE-80E7-0F80-6648058C8123</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="0DDB3893-7FFE-3C73-625C-29BEB04F4A21">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>865C18DE-C985-2D66-59DE-6664CFDFE00A</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="A194EE17-1E03-01A6-2FD1-7A7FEE186CCD">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>E91C0361-17EB-4A28-9A26-C089BF516B7C</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="59D62CAD-CE62-86E6-53B1-5765968F2EB6">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>D08EF7EB-40EB-C8B7-A494-944DA6506E3A</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISION" id="9BB89AFA-AB5D-783B-2289-D37D9E76BE4D">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>C362E48E-CDE0-48CA-1B1D-FEC6678A2CE7</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_JOB_ID" id="6A2F9C9E-AFC1-2522-1481-6C0E3A18419E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>04464E56-E7C0-0750-6CA7-6C8078B79577</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46B75E7B-6113-56C8-9CC6-2EB4819C0C28" referredColumn="89495980-3E7A-9F8A-900A-5241F3BE9F09"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_DEPARTMENT_ID" id="B6F7BF2B-1A4B-35E6-D138-47C99D6EE0CC">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>2CDE103F-7C4B-4698-059B-ED64714EC991</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4947B363-16EC-EB96-1180-089488E027CD" referredColumn="53CE3D02-51D7-6CB5-9104-3C74401E24E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE35B54-89C5-1444-DFD6-92626B528CF5" name="EMPLOYEE_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>6D892F87-0FB3-65A3-A378-087E873E9E27</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1AA7AEA-A6FE-9008-E3D6-70DFEDBA8F6C"/>
+<colUsage columnID="6A2F9C9E-AFC1-2522-1481-6C0E3A18419E"/>
+<colUsage columnID="B6F7BF2B-1A4B-35E6-D138-47C99D6EE0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="113ABEA7-9672-85C5-BA9E-5A6FB465415E" name="EMPLOYEE_JOB_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>34D57FDD-E8D5-21FE-870A-0ADF2548F76E</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A2F9C9E-AFC1-2522-1481-6C0E3A18419E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94471A7D-484A-C097-B514-06E9FBA499A5" name="EMPLOYEE_DEPARTMENT_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>58FDC2CA-537A-41FE-DE24-3C07B3DC9AA4</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6F7BF2B-1A4B-35E6-D138-47C99D6EE0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
