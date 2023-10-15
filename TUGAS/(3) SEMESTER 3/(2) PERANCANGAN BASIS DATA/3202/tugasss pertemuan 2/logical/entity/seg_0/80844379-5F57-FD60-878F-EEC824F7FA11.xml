@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80844379-5F57-FD60-878F-EEC824F7FA11" name="JOB">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:08:19 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JOB ID" id="4C3F5DC8-6284-7947-3945-148FAFC61820">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:16:36 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITLE" id="B1046EAA-9696-63A7-28F8-7DCDCD8FC9E1">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:17:09 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAX SALARY" id="5148D4CB-E3A3-ED59-4242-EA4009E6FBE7">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:17:48 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIN SALARY" id="98FCD4E2-6996-9E91-3C00-9E3CE279CD31">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:18:18 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D8EF1B0-8DB2-3B78-3301-D2171C14352E" name="JOB PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:16:54 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<engineerTo>
+<item key="B881F065-7F93-6820-CB7E-90FB3418984F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C3F5DC8-6284-7947-3945-148FAFC61820</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

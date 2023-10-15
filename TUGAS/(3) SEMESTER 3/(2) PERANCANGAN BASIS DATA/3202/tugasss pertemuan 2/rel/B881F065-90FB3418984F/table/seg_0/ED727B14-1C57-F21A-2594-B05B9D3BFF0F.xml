@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED727B14-1C57-F21A-2594-B05B9D3BFF0F" name="COUNTRY">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>92377AB1-C9C5-5310-98E6-71D939554C20</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="7E3E28D2-4447-45E4-AD32-DE5D3EB05FA0">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>1F532511-8678-18E5-58F4-A219DFB2C73D</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="CDBD0153-60C3-3185-B8EF-5DC86956E79E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>6DC60258-1B8E-34DF-E294-66FCE845C479</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_REGION_ID" id="D39F9E7F-D470-742F-D6A7-93F1EA29B32C">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>D8AB0432-40A8-C720-18E4-A27A6AF9FEA6</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="608A254B-6863-9234-F337-D5F4AB708F0B" referredColumn="3AA36423-0593-30F6-0719-1A71DB089887"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCFF55A6-E0A9-F504-A5A7-65D68B577B35" name="COUNTRY_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>66BA4138-3294-117F-871F-4569DDA18E89</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E3E28D2-4447-45E4-AD32-DE5D3EB05FA0"/>
+<colUsage columnID="D39F9E7F-D470-742F-D6A7-93F1EA29B32C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6003E3EE-D734-79BF-C139-5FE133D18172" name="COUNTRY_REGION_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>ACE53801-9594-1F3A-2E36-FEFD41C6174F</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D39F9E7F-D470-742F-D6A7-93F1EA29B32C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

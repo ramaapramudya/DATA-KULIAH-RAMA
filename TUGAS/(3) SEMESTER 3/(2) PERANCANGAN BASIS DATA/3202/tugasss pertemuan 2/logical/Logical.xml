@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DA185646-759B-E455-4CF2-AD94C443F790" mainViewID="8F4DFCE9-62D1-B5DF-C7AD-8007501AAFDD">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:00:43 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7877C73F-5D00-9C43-5E19-FA33C0B7CD36" name="REGION">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>636F3F3F-533D-40F3-DDA6-1CB8409BEA96</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="3AA36423-0593-30F6-0719-1A71DB089887">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>BF5EA97B-6F6F-0C0A-8E0B-EA7E309C627A</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_NAME" id="A188841C-971F-2663-26F4-B4A545782E25">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>DFE92E7C-65AC-C2C7-1420-182901258419</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AE0034B-D4DC-EF4F-53D9-587B751DD7E9" name="REGION_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-03 12:28:40 UTC</createdTime>
+<generatorID>DC9CF640-3EDC-C53B-AE3B-3B4A0AF9DEEB</generatorID>
+<ownerDesignName>tugas pertemuan 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AA36423-0593-30F6-0719-1A71DB089887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
