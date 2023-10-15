@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CF5BD5B-EEC5-1800-59EA-37D4C6E6293D" name="CUSTOMER">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 06:49:22 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="57230252-0525-5DE9-70AB-35D19FE4206B">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:31:29 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="833C8FCF-AD73-52EB-1B79-D69C4582CFA4">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:31:44 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="6FF3153D-A13C-4119-D5E3-83005A184CC8">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:32:18 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="30E56E5A-6EB0-353F-B605-13198AA54A2E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:32:29 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="6782ACC7-0AD3-470D-79DA-CD4FB7823198">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:32:47 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="E5BD9C29-EA20-D48F-B913-1585B6208FAA">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:33:01 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal code" id="CD28E7A4-085C-0D09-2FC3-BE3C4FF76B90">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:33:18 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="5E9752AF-1C8D-18ED-DD38-1FFF7F4FA475">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:33:41 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="D6B209A9-509E-414D-B042-0537DD29C1F2">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:34:00 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08C87709-8FFC-83AF-C86C-25B3D9984CBC" name="CUSTOMER PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:31:42 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57230252-0525-5DE9-70AB-35D19FE4206B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C87DAD0-D6FC-964A-E7A7-7BEBD926ACBB" name="CUSTOMER">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>3CF5BD5B-EEC5-1800-59EA-37D4C6E6293D</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5EC519A5-E7EB-0C7E-025E-5B9A9560B75E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>57230252-0525-5DE9-70AB-35D19FE4206B</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="FDF06F2A-7EFD-420C-4667-26FD863CEE3F">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>833C8FCF-AD73-52EB-1B79-D69C4582CFA4</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="07E304F5-9EA8-71E1-7A8D-E029C05FDDEB">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>6FF3153D-A13C-4119-D5E3-83005A184CC8</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="E59130FB-FEA4-6DDD-C348-117716E78A2F">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>30E56E5A-6EB0-353F-B605-13198AA54A2E</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="57EA3DBE-4C80-14DB-0217-E66C36560926">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>6782ACC7-0AD3-470D-79DA-CD4FB7823198</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="46690C30-BDD4-FA41-319B-3D2D16D53F10">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>E5BD9C29-EA20-D48F-B913-1585B6208FAA</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="65AF83FB-FB08-8715-1C77-3CBB045E6598">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>CD28E7A4-085C-0D09-2FC3-BE3C4FF76B90</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="110F6766-970D-5C38-296E-7BD4C9BB9FCB">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>5E9752AF-1C8D-18ED-DD38-1FFF7F4FA475</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="477D4D0B-BD6D-AC3B-7ED3-255A26B939F5">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>D6B209A9-509E-414D-B042-0537DD29C1F2</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="842B427F-FC25-4E23-E7A5-80BB669A046C" name="CUSTOMER_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>08C87709-8FFC-83AF-C86C-25B3D9984CBC</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EC519A5-E7EB-0C7E-025E-5B9A9560B75E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

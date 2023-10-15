@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6E0B31D-8299-635E-D5E9-F9C7BCEB3E2B" containerWithKeyObject="A2F7969F-823F-13BA-E617-9EE800BCA3CE" localFKIndex="8FAC47B0-6D60-B625-1AFA-F79A1049C6E4" name="BUILDING_LOCATION_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>FBE4DFF8-E355-2A6D-C42B-59B5FD6B069B</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<referredTableLongName>LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87B5D009-394F-FE62-7EBC-35B4DA388CA2</referredTableID>
+<keyObject>41E2E96F-355D-8DC3-6ED3-9ABADB581CCB</keyObject>
+<referredKeyID>41E2E96F-355D-8DC3-6ED3-9ABADB581CCB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EBEF621-6E4A-40DA-C165-C0F4F76DBCE6" name="SHIPMENT">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 06:50:52 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date" id="284C5B6D-22E3-0E13-C579-99FE0D53A2A3">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:34:38 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="AF11AA60-EA93-0602-D30D-A9F9550F9832">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:34:47 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="1367C4DE-9887-DDF0-1F32-0082C2A62289">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:00:32 UTC</createdTime>
+<generatorID>224C00F3-60DC-1747-AFFA-CBDF740AB5F4</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<referedAttribute>831BAEAC-AAFB-DB1B-FCC6-5BEEFFFE066D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90A7D349-7B92-20D6-00D3-8CC4E008F9E0" name="SHIPMENT PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:34:45 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>284C5B6D-22E3-0E13-C579-99FE0D53A2A3</attributeRef>
+<attributeRef>1367C4DE-9887-DDF0-1F32-0082C2A62289</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

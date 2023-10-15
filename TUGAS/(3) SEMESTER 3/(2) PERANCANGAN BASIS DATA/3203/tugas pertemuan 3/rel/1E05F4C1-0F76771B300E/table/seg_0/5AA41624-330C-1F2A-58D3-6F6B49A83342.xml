@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AA41624-330C-1F2A-58D3-6F6B49A83342" name="ORDER_ITEM">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>BE786ED3-E6B9-BC0A-D55A-10A6DCA097D9</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="99537E2C-19D6-4162-E57D-7B38CE274593">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>FA8A3C67-F12B-3594-5627-F3BDABC2DBB8</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qty_ordered" id="4AEBF5DB-1935-3C4C-5408-AC3CFF44660E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>85FEFFAF-175A-7A47-7054-97C50AD0B4A2</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qty_shipped" id="C0C236F9-9D1C-9AC1-FA59-DCBB6CA427C2">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>5555654B-903B-C5A7-C07E-62C93646480A</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT/ASSEMBLY_ITEM_id" id="E2D813A6-BC57-3BBD-80A7-10C9207B1535">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>472A86DB-9B10-50BE-6958-59E0DCAC4243</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181AAA0A-3245-A7BB-C7D7-19BED7772B88" referredColumn="0A2D1B82-CB5B-168F-8026-32D620CAF874"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_id" id="5B418054-DF14-462E-44AA-6ECC86AB792F">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>BCB66FE2-01FD-1F42-8DCD-507C034D48F1</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="067D04D3-31F4-679E-AB25-C13F464FEAEB" referredColumn="5EC519A5-E7EB-0C7E-025E-5B9A9560B75E"/>
+</associations>
+</Column>
+<Column name="SHIPMENT_date" id="7931FF15-F672-3AC7-07DA-2CD49B77A6E5">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>069ACB07-1C49-9D83-82D2-71072F303251</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7541C82-742A-078B-F6E5-4BC45CB19245" referredColumn="A8C3BF80-243B-2761-346C-7B14C2B582A3"/>
+</associations>
+</Column>
+<Column name="SHIPMENT_TRANSPORTATION_id" id="289FF749-B207-48ED-B305-93ED0ADC3681">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>30C295B9-3B95-1CAC-9612-A3872AA6CD4B</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7541C82-742A-078B-F6E5-4BC45CB19245" referredColumn="9C5FA713-89A4-6ED9-EF63-5F3366667B6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="009E5C27-20F9-B472-044F-EC508D3306BC" name="ORDER_ITEM_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>7E4AAA33-4CFA-2093-CEFE-5FB4957FA9E0</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99537E2C-19D6-4162-E57D-7B38CE274593"/>
+<colUsage columnID="E2D813A6-BC57-3BBD-80A7-10C9207B1535"/>
+<colUsage columnID="5B418054-DF14-462E-44AA-6ECC86AB792F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A6AE691-38A5-17E8-8DB1-048F7F6C37D6" name="ORDER_ITEM_PRODUCT/ASSEMBLY_ITEM_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>C240346C-D9D8-F076-DED9-4FCE7BDF15BB</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D813A6-BC57-3BBD-80A7-10C9207B1535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F544B79-23CF-53CF-2D58-5D29D6D2D357" name="ORDER_ITEM_CUSTOMER_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>83171A24-A676-8307-539E-DB6E34203715</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B418054-DF14-462E-44AA-6ECC86AB792F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E9D25B7-C9FC-2ECF-6417-0B0C8A94E3E4" name="ORDER_ITEM_SHIPMENT_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>9E0AA431-CC1D-9AD7-37ED-7EA6BAFCD464</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7931FF15-F672-3AC7-07DA-2CD49B77A6E5"/>
+<colUsage columnID="289FF749-B207-48ED-B305-93ED0ADC3681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

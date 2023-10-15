@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74E5AB9D-F5BD-FF5D-2523-FED8CB0BB257" name="PURCHASE ORDER">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 06:48:25 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date" id="D7B95794-8C02-065D-5B00-60CD15984A8C">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:15:47 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty ordered" id="51CCFAC9-C81A-4CE7-3A74-0B5CE40B0CDF">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:16:08 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty shipped" id="BDAA3FB5-8A4B-E02A-C692-E74E3A2D1710">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:17:27 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="8A9D5B1A-7372-DF7C-0F5E-911FA9CDDDD6">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:55:38 UTC</createdTime>
+<generatorID>B13D65B8-676D-CF3D-EC8C-A8D55352156C</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<referedAttribute>31BECAEE-E679-8F38-DA9D-26C59B94132A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="DE70020F-C43C-9036-F85E-3575020349C7">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:57:05 UTC</createdTime>
+<generatorID>AD431543-D298-7201-A4FC-7A375D4EF18E</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<referedAttribute>096FC660-F40C-9943-C140-216D9C06B04D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="148E7F45-9B4D-F065-73E2-129D6BCA1B56" name="PURCHASE ORDER PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:16:04 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7B95794-8C02-065D-5B00-60CD15984A8C</attributeRef>
+<attributeRef>8A9D5B1A-7372-DF7C-0F5E-911FA9CDDDD6</attributeRef>
+<attributeRef>DE70020F-C43C-9036-F85E-3575020349C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="14BD6D2E-15C5-9302-0CF0-37EBFC32E8A8">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 07:54:17 UTC</createdTime>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<engineerTo>
+<item key="1E05F4C1-80D9-23A4-9A5A-0F76771B300E" value="true"/>
+</engineerTo>
+<sourcePk>EACABB51-19D1-30B5-55E1-6B1270500AC8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45FB9250-0240-265E-D1C3-30D1E0F67C97</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18D946B4-523C-1E77-D7CD-9E03AF425A4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

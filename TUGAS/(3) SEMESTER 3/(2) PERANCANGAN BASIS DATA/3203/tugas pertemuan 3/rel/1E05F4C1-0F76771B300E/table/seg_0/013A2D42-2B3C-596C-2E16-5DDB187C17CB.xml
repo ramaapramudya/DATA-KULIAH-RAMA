@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="013A2D42-2B3C-596C-2E16-5DDB187C17CB" name="SHIPMENT">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>1EBEF621-6E4A-40DA-C165-C0F4F76DBCE6</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="A8C3BF80-243B-2761-346C-7B14C2B582A3">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>284C5B6D-22E3-0E13-C579-99FE0D53A2A3</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="CD1AC510-CF60-6791-C427-7D29EE6A7D63">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>AF11AA60-EA93-0602-D30D-A9F9550F9832</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSPORTATION_id" id="9C5FA713-89A4-6ED9-EF63-5F3366667B6E">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>1367C4DE-9887-DDF0-1F32-0082C2A62289</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61E39950-526F-72CB-1E23-BBF7E3A9D478" referredColumn="E5878788-1E4C-5393-F0CB-504DA237FDF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D9BAA20-34ED-7362-0F17-F65130140EC2" name="SHIPMENT_PK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>90A7D349-7B92-20D6-00D3-8CC4E008F9E0</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C3BF80-243B-2761-346C-7B14C2B582A3"/>
+<colUsage columnID="9C5FA713-89A4-6ED9-EF63-5F3366667B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06E02559-EF68-F674-23C6-1910677535EB" name="SHIPMENT_TRANSPORTATION_FK">
+<createdBy>Rama</createdBy>
+<createdTime>2023-10-15 08:33:33 UTC</createdTime>
+<generatorID>224C00F3-60DC-1747-AFFA-CBDF740AB5F4</generatorID>
+<ownerDesignName>tugas pertemuan 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C5FA713-89A4-6ED9-EF63-5F3366667B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
