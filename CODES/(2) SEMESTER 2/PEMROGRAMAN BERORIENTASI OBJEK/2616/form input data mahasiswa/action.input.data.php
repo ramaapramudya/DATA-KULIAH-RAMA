@@ -3,11 +3,12 @@
         if ($_POST['Submit'] == "Submit") {
         $nim = $_POST['nim'];
         $nama_mhs = $_POST['nama_mhs'];
-        $jns_kelamin        = $_POST['jenis kelamin'];
-        $alamat            = $_POST['alamat'];
-        $telepon        = $_POST['telepon'];
+        $jns_kelamin = $_POST['jenis_kelamin'];
+        $no_hp = $_POST['no_hp'];
+        $agama = $_POST['agama'];
+        $status_keaktifan = $_POST['status_keaktifan'];
         //validasi data data kosong
-        if (empty($_POST['id_mahasiswa'])||empty($_POST['nama'])||empty($_POST['alamat'])||empty($_POST['telepon'])) {
+        if (empty($_POST['nim'])||empty($_POST['nama_mhs'])||empty($_POST['jns_kelamin'])||empty($_POST['no_hp'])||) {
             ?>
                 <script language="JavaScript">
                     alert('Data Harap Dilengkapi!');

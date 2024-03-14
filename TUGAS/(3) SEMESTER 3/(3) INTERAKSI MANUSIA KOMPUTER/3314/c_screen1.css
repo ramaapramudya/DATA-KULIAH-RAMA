@@ -1,0 +1,123 @@
+.screen-1-xEA {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 2.2rem;
+  position: relative;
+  width: 100%;
+
+  .auto-group-o6ce-KD8 {
+    flex-shrink: 0;
+    height: 53.2rem;
+    margin-bottom: 2.4rem;
+    position: relative;
+    width: 100%;
+
+    .ellipse-1-tZ4 {
+      height: 20rem;
+      left: 0;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .ellipse-2-n8e {
+      height: 20rem;
+      left: 21.5rem;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .ellipse-3-thU {
+      height: 20rem;
+      left: 0;
+      object-fit: contain;
+      position: absolute;
+      top: 33.2rem;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .ellipse-4-qMp {
+      height: 20rem;
+      left: 19.5rem;
+      object-fit: contain;
+      position: absolute;
+      top: 33.2rem;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .ellipse-7-aqC {
+      height: 23.8rem;
+      left: 4rem;
+      object-fit: contain;
+      position: absolute;
+      top: 15.8rem;
+      vertical-align: top;
+      width: 35rem;
+    }
+  }
+  .pesan-makanan-catering-dengan-cepat-aman-v8N {
+    color: #030304;
+    flex-shrink: 0;
+    font-family: Inter, "Source Sans Pro";
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1.2125;
+    margin: 0rem 7.049rem 5.9rem 0rem;
+    max-width: 32.1rem;
+  }
+  .auto-group-h2fq-ZBL {
+    flex-shrink: 0;
+    height: 20rem;
+    position: relative;
+    width: 100%;
+
+    .ellipse-5-tDc {
+      height: 20rem;
+      left: 0;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .ellipse-6-dBC {
+      height: 20rem;
+      left: 19.5rem;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      vertical-align: top;
+      width: 28rem;
+    }
+    .rectangle-20-m2W {
+      background-color: rgba(246, 97, 13, 0.6800000072);
+      border-radius: 3rem;
+      height: 6.8rem;
+      left: 6.5rem;
+      position: absolute;
+      top: 2.2rem;
+      width: 29.9rem;
+    }
+    .get-started-R74 {
+      color: #000000;
+      font-family: Inter, "Source Sans Pro";
+      font-size: 1.8rem;
+      font-weight: 500;
+      height: 2.2rem;
+      left: 16.5rem;
+      line-height: 1.2125;
+      position: absolute;
+      top: 4.5rem;
+      white-space: nowrap;
+      width: 10rem;
+    }
+  }
+}

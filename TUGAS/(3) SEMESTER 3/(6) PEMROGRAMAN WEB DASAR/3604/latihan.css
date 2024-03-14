@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: black;
+    padding-top: 25px;
+    align-content: center;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #FFF4A3!important;
+    color: black!important;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+}

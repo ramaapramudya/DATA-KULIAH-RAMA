@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gotham:wght@300&display=swap"
+    />
+    <style>
+      body {
+        font-family: "Gotham", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+      }
+      h1,
+      h2,
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      select,
+      input,
+      button {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #af684c;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #af684c;
+      }
+      .output-container {
+        margin-top: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #3498db;
+        display: block;
+        margin-top: 10px;
+      }
+    </style>
+    <script>
+      function calculateRent() {
+        var rentalDateInput = document.getElementById("rentalDateInput");
+        var customerNameInput = document.getElementById("customerNameInput");
+        var genderSelect = document.getElementById("genderSelect");
+        var carSelect = document.getElementById("carSelect");
+        var daysInput = document.getElementById("daysInput");
+        var outputContainer = document.getElementById("outputContainer");
+        var carType = carSelect.value;
+        var dailyRate = 0;
+        switch (carType) {
+          case "Agya":
+            dailyRate = 300000;
+            break;
+          case "Avanza":
+            dailyRate = 400000;
+            break;
+          case "Innova":
+            dailyRate = 500000;
+            break;
+        }
+        var rentalDays = parseInt(daysInput.value);
+        var rentalCost = dailyRate * rentalDays;
+        var discount = 0;
+        if (rentalCost > 1000000) {
+          discount = 0.1;
+        } else if (rentalCost > 2500000) {
+          discount = 0.2;
+        }
+        var totalCost = rentalCost - rentalCost * discount;
+        outputContainer.innerHTML =
+          "<strong>Output:</strong><br>" +
+          "Tanggal Rental: " +
+          rentalDateInput.value +
+          "<br>" +
+          "Nama Pemesan: " +
+          customerNameInput.value +
+          "<br>" +
+          "Jenis Kelamin: " +
+          genderSelect.value +
+          "<br>" +
+          "Biaya Sewa: Rp." +
+          rentalCost.toLocaleString() +
+          "<br>" +
+          "Diskon: " +
+          discount * 100 +
+          "%<br>" +
+          "Total Bayar: Rp." +
+          totalCost.toLocaleString();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 style="font-size: 16px; margin-bottom: 12px">
+        UJIAN TENGAH SEMESTER
+      </h1>
+      <h2 style="font-size: 14px; margin-bottom: 10px">
+        Pemrograman Web Dasar
+      </h2>
+      <h3 style="font-size: 14px; margin-bottom: 8px">
+        Rama Pramudya Wibisana (2022320019)
+      </h3>
+      <br />
+      <label for="rentalDateInput">Tanggal Rental:</label>
+      <input type="date" id="rentalDateInput" />
+      <label for="customerNameInput">Nama Pemesan:</label>
+      <input
+        type="text"
+        id="customerNameInput"
+        placeholder="Masukkan nama pemesan"
+      />
+      <label for="genderSelect">Jenis Kelamin:</label>
+      <select id="genderSelect">
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+      </select>
+      <label for="carSelect">Pilih Mobil:</label>
+      <select id="carSelect">
+        <option value="Agya">Agya</option>
+        <option value="Avanza">Avanza</option>
+        <option value="Innova">Innova</option>
+      </select>
+      <label for="daysInput">Lama Sewa (hari):</label>
+      <input type="number" id="daysInput" placeholder="Masukkan jumlah hari" />
+      <button onclick="calculateRent()">Hitung Biaya</button>
+      <div id="outputContainer" class="output-container"></div>
+      <a href="#" onclick="location.reload()">Input Kembali</a>
+    </div>
+  </body>
+</html>
